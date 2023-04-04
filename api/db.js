@@ -6,3 +6,8 @@ export const db = mysql.createConnection({
   password: "admin",
   database: "blog"
 })
+
+db.connect(function(err) {
+  if (err) throw err;
+  console.log("MySQL Connected!");
+});
