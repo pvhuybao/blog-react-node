@@ -24,13 +24,13 @@ function Navbar() {
           <Link className="link" to="/?cat=technology">
             <h6>TECHNOLOGY</h6>
           </Link>
-          <Link className="link" to="/?cat=art">
+          <Link className="link" to="/?cat=cinema">
             <h6>CINEMA</h6>
           </Link>
-          <Link className="link" to="/?cat=art">
+          <Link className="link" to="/?cat=design">
             <h6>DESIGN</h6>
           </Link>
-          <Link className="link" to="/?cat=art">
+          <Link className="link" to="/?cat=food">
             <h6>FOOD</h6>
           </Link>
           <span>{currentUser?.username}</span>
